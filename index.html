@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio de Antonio Neto - Desenvolvedor de Software especializado em PHP, .NET, C#, Python e tecnologias web modernas">
+    <title>Antonio Neto | Desenvolvedor de Software</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container header-content">
+            <a href="#home" class="logo">
+                Antonio<span class="accent">Neto</span>.Dev
+            </a>
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#sobre" class="nav-link">Sobre Mim</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </nav>
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema">
+                    <i class="bi bi-moon-fill" id="themeIcon"></i>
+                </button>
+                <button class="hamburger" id="hamburger" aria-label="Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <p class="hero-greeting">Ola, eu sou</p>
+                <h1 class="hero-name">Antonio <span class="accent">Neto</span></h1>
+                <h2 class="hero-title">Desenvolvedor de Software</h2>
+                <p class="hero-description">
+                    Desenvolvedor de software com foco em solucoes completas — do banco de dados a interface —
+                    utilizando PHP, .NET, Python e tecnologias web modernas.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#sobre" class="btn btn-outline">Sobre Mim</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-image-wrapper">
+                    <img src="foto-perfil.png" alt="Antonio Neto" loading="eager">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Habilidades <span class="accent">Tecnicas</span></h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-code-slash"></i></div>
+                    <h3>C# / .NET</h3>
+                    <p>Desenvolvimento de aplicacoes robustas com ASP.NET Core e Entity Framework, focando em arquitetura escalavel.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-php"></i></div>
+                    <h3>PHP Moderno</h3>
+                    <p>Desenvolvimento Back-End eficiente e seguro, com foco na manipulacao de dados e integracao de sistemas criticos.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-filetype-py"></i></div>
+                    <h3>Python</h3>
+                    <p>Automacao de tarefas e analise de dados, complementando o stack de desenvolvimento back-end.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-database"></i></div>
+                    <h3>SQL / Dados</h3>
+                    <p>Expertise em SQL Server e MySQL: criacao de queries complexas, stored procedures, views e migracao de dados.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-terminal"></i></div>
+                    <h3>DevOps & Linux</h3>
+                    <p>Gerenciamento de ambientes com Docker, administracao de servidores Linux e versionamento com Git/GitHub.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="bi bi-lightning"></i></div>
+                    <h3>Front-End</h3>
+                    <p>Conhecimentos em JavaScript, HTML5 e CSS3 para criar interfaces funcionais e integrar com o Back-End.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projetos">
+        <div class="container">
+            <h2 class="section-title">Meus <span class="accent">Projetos</span></h2>
+            <p class="section-subtitle">Alguns dos projetos que desenvolvi</p>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-folder2-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/AntonioNeto404/gest_scol" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Gest Scol</h3>
+                    <p class="project-description">Sistema de gestao escolar completo desenvolvido em PHP para administracao de alunos, turmas e notas.</p>
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>MySQL</span>
+                        <span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-folder2-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/AntonioNeto404/SISENGLISH" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">SISENGLISH</h3>
+                    <p class="project-description">Aplicacao PHP para gerenciamento e aprendizado de ingles com funcionalidades interativas.</p>
+                    <div class="project-tags">
+                        <span>PHP</span>
+                        <span>Web</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-folder2-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/AntonioNeto404/PROJETO-MULTIDISCIPLINAR-uninter" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Vida Plus</h3>
+                    <p class="project-description">Projeto multidisciplinar desenvolvido na UNINTER utilizando TypeScript para solucoes de saude e bem-estar.</p>
+                    <div class="project-tags">
+                        <span>TypeScript</span>
+                        <span>Web</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-folder2-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/AntonioNeto404/albsinfo" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">ALBS Info</h3>
+                    <p class="project-description">Projeto web informativo desenvolvido com HTML para apresentacao de conteudo e informacoes.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="bi bi-folder2-open"></i>
+                        <div class="project-links">
+                            <a href="https://github.com/AntonioNeto404/estudos" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                        </div>
+                    </div>
+                    <h3 class="project-title">Estudos DIO</h3>
+                    <p class="project-description">Repositorio de estudos e projetos realizados na Digital Innovation One, cobrindo diversas tecnologias.</p>
+                    <div class="project-tags">
+                        <span>Jupyter</span>
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="project-card project-card-cta">
+                    <div class="project-header">
+                        <i class="bi bi-plus-circle"></i>
+                    </div>
+                    <h3 class="project-title">Mais Projetos</h3>
+                    <p class="project-description">Confira todos os meus repositorios e contribuicoes no GitHub.</p>
+                    <a href="https://github.com/AntonioNeto404" target="_blank" rel="noopener" class="btn btn-outline btn-sm">Ver no GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre <span class="accent">Mim</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Sou <strong>Antonio Francisco Barbosa Neto</strong>, desenvolvedor Full Stack
+                        apaixonado por construir solucoes completas, seguras e escalaveis —
+                        do banco de dados a interface do usuario.
+                        Residente em <strong>Recife, PE</strong>.
+                    </p>
+
+                    <!-- Experience -->
+                    <div class="about-block">
+                        <h3><i class="bi bi-briefcase"></i> Experiencia Profissional</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Secretaria de Defesa Social de PE (SDS-PE)</h4>
+                                <span class="timeline-role">Estagiario - Desenvolvimento PHP & Engenharia de Dados</span>
+                                <p>Desenvolvimento de sistemas em PHP e engenharia de dados, com foco em migracao de sistemas legados e otimizacao de consultas SQL.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Fuctura Tecnologia</h4>
+                                <span class="timeline-role">Sustentacao de Sistemas</span>
+                                <p>Correcao de bugs criticos e implementacao de novas funcionalidades em sistemas existentes.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education -->
+                    <div class="about-block">
+                        <h3><i class="bi bi-mortarboard"></i> Formacao Academica</h3>
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <h4>Tecnologo em Analise e Desenvolvimento de Sistemas</h4>
+                                <span class="timeline-role">Centro Universitario Internacional UNINTER</span>
+                            </div>
+                            <div class="timeline-item">
+                                <h4>Bacharelado em Engenharia de Software</h4>
+                                <span class="timeline-role">Estacio - Cursando</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Certifications -->
+                    <div class="about-block">
+                        <h3><i class="bi bi-patch-check"></i> Certificacoes</h3>
+                        <div class="certifications-list">
+                            <div class="cert-item">
+                                <i class="bi bi-award"></i>
+                                <span>BootCamp Decola Tech Avanade (.NET) - DIO</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="bi bi-award"></i>
+                                <span>Formacao Python Developer - DIO</span>
+                            </div>
+                            <div class="cert-item">
+                                <i class="bi bi-award"></i>
+                                <span>Formacao Linux & Docker Fundamentals - DIO</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tech Stack sidebar -->
+                <div class="about-sidebar">
+                    <div class="tech-stack-card">
+                        <h3>Tech Stack</h3>
+                        <div class="tech-category">
+                            <h4>Back-End</h4>
+                            <div class="tech-tags">
+                                <span>PHP</span>
+                                <span>C#</span>
+                                <span>.NET Core</span>
+                                <span>Python</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Banco de Dados</h4>
+                            <div class="tech-tags">
+                                <span>MySQL</span>
+                                <span>SQL Server</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>DevOps & Ferramentas</h4>
+                            <div class="tech-tags">
+                                <span>Docker</span>
+                                <span>Git</span>
+                                <span>GitHub</span>
+                                <span>Linux</span>
+                            </div>
+                        </div>
+                        <div class="tech-category">
+                            <h4>Front-End</h4>
+                            <div class="tech-tags">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contato">
+        <div class="container">
+            <h2 class="section-title">Entre em <span class="accent">Contato</span></h2>
+            <p class="section-subtitle">
+                Aberto a novas oportunidades e parcerias em desenvolvimento Back-End.
+                Entre em contato pelos canais abaixo:
+            </p>
+            <div class="contact-grid">
+                <a href="mailto:toninhofbn@hotmail.com" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-envelope"></i></div>
+                    <h3>Email</h3>
+                    <p>toninhofbn@hotmail.com</p>
+                    <span class="contact-info">Respondo em ate 24h</span>
+                </a>
+                <a href="https://wa.me/5581971179012" target="_blank" rel="noopener" class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-whatsapp"></i></div>
+                    <h3>WhatsApp</h3>
+                    <p>+55 (81) 97117-9012</p>
+                    <span class="contact-info">Resposta rapida</span>
+                </a>
+                <div class="contact-card">
+                    <div class="contact-icon"><i class="bi bi-geo-alt"></i></div>
+                    <h3>Localizacao</h3>
+                    <p>Recife, PE</p>
+                    <span class="contact-info">Disponivel para remoto</span>
+                </div>
+            </div>
+            <div class="contact-social">
+                <a href="https://www.linkedin.com/in/ant%C3%B4nio-francisco-5b220555/" target="_blank" rel="noopener" class="social-btn">
+                    <i class="bi bi-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/AntonioNeto404" target="_blank" rel="noopener" class="social-btn">
+                    <i class="bi bi-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2025 Antonio<span class="accent">Neto</span>.Dev - Todos os direitos reservados.</p>
+            <div class="footer-links">
+                <a href="https://github.com/AntonioNeto404" target="_blank" rel="noopener" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/ant%C3%B4nio-francisco-5b220555/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                <a href="mailto:toninhofbn@hotmail.com" aria-label="Email"><i class="bi bi-envelope"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
