@@ -33,6 +33,7 @@ const nav = document.getElementById('nav');
 hamburger.addEventListener('click', () => {
     hamburger.classList.toggle('active');
     nav.classList.toggle('open');
+    hamburger.setAttribute('aria-expanded', nav.classList.contains('open'));
 });
 
 // Close menu when clicking a link
@@ -40,6 +41,7 @@ nav.querySelectorAll('.nav-link').forEach(link => {
     link.addEventListener('click', () => {
         hamburger.classList.remove('active');
         nav.classList.remove('open');
+        hamburger.setAttribute('aria-expanded', 'false');
     });
 });
 
@@ -109,3 +111,5 @@ function setupScrollReveal() {
 }
 
 setupScrollReveal();
+
+document.getElementById('currentYear').textContent = new Date().getFullYear();
